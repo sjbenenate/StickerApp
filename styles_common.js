@@ -12,19 +12,27 @@ const styleFormat = {
     },
     text: {
         color: darkMode ? '#eee' : '#000',
+        fontSize: 16,
+        lineHeight: 21,
+        fontWeight: 'bold',
+        letterSpacing: 0.25,
     },
     button: {
-        color: darkMode ? '#fff' : '#000',
-        background: '#00f',
+        backgroundColor: '#04fgf',
+        paddingVertical: 24,
+        paddingHorizontal: 32,
+        borderRadius: 20,
+        elevation: 3,
+        backgroundColor: 'black',
     },
     imageContainer: {
         flex: 1,
-        paddingTop: 58,
+        paddingTop: 35,
     },
     image: {
         width: 320,
-        height: 440,
-        borderRadius: 18,
+        //height: 440,
+        borderRadius: 20,
     },
 };
 
