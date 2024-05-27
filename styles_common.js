@@ -17,23 +17,6 @@ const styleFormat = {
         fontWeight: 'bold',
         letterSpacing: 0.25,
     },
-    button: {
-        backgroundColor: '#04fgf',
-        paddingVertical: 24,
-        paddingHorizontal: 32,
-        borderRadius: 20,
-        elevation: 3,
-        backgroundColor: 'black',
-    },
-    imageContainer: {
-        flex: 1,
-        paddingTop: 35,
-    },
-    image: {
-        width: 320,
-        //height: 440,
-        borderRadius: 20,
-    },
 };
 
 export const styles = StyleSheet.create(styleFormat);

@@ -12,7 +12,9 @@ export default function App() {
             <ImageViewer imageSource={myImage} />
             <Button
                 title="Switch Mode"
-                onPress={() => {console.log('Pressed!')}}
+                onPress={() => {
+                    alert('Pressed!');
+                }}
             />
             <StatusBar style="auto" />
         </View>
