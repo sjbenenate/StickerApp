@@ -17,6 +17,9 @@ const styleFormat = {
         fontWeight: 'bold',
         letterSpacing: 0.25,
     },
+    footer: {
+        flex: 1 / 3,
+    },
 };
 
 export const styles = StyleSheet.create(styleFormat);
