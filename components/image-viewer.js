@@ -1,6 +1,10 @@
 import { View, Image, StyleSheet } from 'react-native';
 
-export const ImageViewer = ({ imageSource }) => {
+const imageDefault = require('../assets/images/background-image.png');
+
+export const ImageViewer = ({ imageUri }) => {
+    const imageSource = imageUri ? { uri: imageUri } : imageDefault;
+
     return (
         <View style={imageStyles.container}>
             <Image source={imageSource} style={imageStyles.image} />
@@ -15,7 +19,7 @@ const imageStyles = StyleSheet.create({
     },
     image: {
         width: 320,
-        //height: 440,
+        height: 440,
         borderRadius: 20,
     },
 });

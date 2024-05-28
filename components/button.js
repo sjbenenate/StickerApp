@@ -56,7 +56,7 @@ const btnStyles = StyleSheet.create({
     buttonPrimary: {
         backgroundColor: '#666',
     },
-    text: { color: 'inherit', fontSize: 16 },
+    text: { color: '#fff', fontSize: 16 },
     textPrimary: { color: primaryColor },
     icon: {
         paddingRight: 8,
